@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    let columns = [GridItem(.adaptive(minimum: 45), spacing: 8)]
+    
     var body: some View {
-        Text("Hello, World!")
-            .padding()
+        VStack {
+            HomeScreen()
+        }
     }
 }
 

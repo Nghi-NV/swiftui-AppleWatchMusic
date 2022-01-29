@@ -17,6 +17,15 @@
 		2F4182CB27A4006800EB6183 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4182CA27A4006800EB6183 /* ComplicationController.swift */; };
 		2F4182CD27A4006900EB6183 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F4182CC27A4006900EB6183 /* Assets.xcassets */; };
 		2F4182D027A4006900EB6183 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F4182CF27A4006900EB6183 /* Preview Assets.xcassets */; };
+		2F4182E227A4044400EB6183 /* TopArtistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4182E127A4044400EB6183 /* TopArtistView.swift */; };
+		2F4182E527A4049D00EB6183 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4182E427A4049D00EB6183 /* Music.swift */; };
+		2F4182E727A4061300EB6183 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4182E627A4061300EB6183 /* Artist.swift */; };
+		2F4182E927A4067A00EB6183 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4182E827A4067A00EB6183 /* Song.swift */; };
+		2F4182EB27A4096700EB6183 /* MusicCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4182EA27A4096700EB6183 /* MusicCardView.swift */; };
+		2F4182EE27A40ADA00EB6183 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4182ED27A40ADA00EB6183 /* HomeScreen.swift */; };
+		2F4182F027A4C10D00EB6183 /* ArtistScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4182EF27A4C10D00EB6183 /* ArtistScreen.swift */; };
+		2F4182F227A4C68C00EB6183 /* ArtistCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4182F127A4C68C00EB6183 /* ArtistCardView.swift */; };
+		2F4182F627A4C7B000EB6183 /* SongScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4182F527A4C7B000EB6183 /* SongScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +84,15 @@
 		2F4182CF27A4006900EB6183 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2F4182D127A4006900EB6183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F4182D227A4006900EB6183 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		2F4182E127A4044400EB6183 /* TopArtistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopArtistView.swift; sourceTree = "<group>"; };
+		2F4182E427A4049D00EB6183 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		2F4182E627A4061300EB6183 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		2F4182E827A4067A00EB6183 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		2F4182EA27A4096700EB6183 /* MusicCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCardView.swift; sourceTree = "<group>"; };
+		2F4182ED27A40ADA00EB6183 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		2F4182EF27A4C10D00EB6183 /* ArtistScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistScreen.swift; sourceTree = "<group>"; };
+		2F4182F127A4C68C00EB6183 /* ArtistCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistCardView.swift; sourceTree = "<group>"; };
+		2F4182F527A4C7B000EB6183 /* SongScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +136,9 @@
 		2F4182C127A4006800EB6183 /* AppleWatchMusic WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				2F4182EC27A40ACB00EB6183 /* Screens */,
+				2F4182E327A4047F00EB6183 /* Models */,
+				2F4182E027A4042E00EB6183 /* Components */,
 				2F4182C227A4006800EB6183 /* AppleWatchMusicApp.swift */,
 				2F4182C427A4006800EB6183 /* ContentView.swift */,
 				2F4182C627A4006800EB6183 /* NotificationController.swift */,
@@ -137,6 +158,36 @@
 				2F4182CF27A4006900EB6183 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2F4182E027A4042E00EB6183 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2F4182E127A4044400EB6183 /* TopArtistView.swift */,
+				2F4182EA27A4096700EB6183 /* MusicCardView.swift */,
+				2F4182F127A4C68C00EB6183 /* ArtistCardView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2F4182E327A4047F00EB6183 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2F4182E427A4049D00EB6183 /* Music.swift */,
+				2F4182E627A4061300EB6183 /* Artist.swift */,
+				2F4182E827A4067A00EB6183 /* Song.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2F4182EC27A40ACB00EB6183 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2F4182ED27A40ADA00EB6183 /* HomeScreen.swift */,
+				2F4182EF27A4C10D00EB6183 /* ArtistScreen.swift */,
+				2F4182F527A4C7B000EB6183 /* SongScreen.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,11 +317,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F4182E927A4067A00EB6183 /* Song.swift in Sources */,
 				2F4182C727A4006800EB6183 /* NotificationController.swift in Sources */,
+				2F4182F627A4C7B000EB6183 /* SongScreen.swift in Sources */,
 				2F4182C527A4006800EB6183 /* ContentView.swift in Sources */,
+				2F4182F227A4C68C00EB6183 /* ArtistCardView.swift in Sources */,
 				2F4182CB27A4006800EB6183 /* ComplicationController.swift in Sources */,
+				2F4182EE27A40ADA00EB6183 /* HomeScreen.swift in Sources */,
+				2F4182EB27A4096700EB6183 /* MusicCardView.swift in Sources */,
 				2F4182C327A4006800EB6183 /* AppleWatchMusicApp.swift in Sources */,
+				2F4182E527A4049D00EB6183 /* Music.swift in Sources */,
+				2F4182F027A4C10D00EB6183 /* ArtistScreen.swift in Sources */,
 				2F4182C927A4006800EB6183 /* NotificationView.swift in Sources */,
+				2F4182E727A4061300EB6183 /* Artist.swift in Sources */,
+				2F4182E227A4044400EB6183 /* TopArtistView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
